@@ -1,0 +1,131 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: url(../img/bg.png);
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	 font-size: 13px;
+	 font-family: Arial, Helvetica, sans-serf;
+	 color: #969696;
+	 line-height: 1.3em;
+	
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #2E2C2D;
+	font-family: "Trebushet MS", Arial, Helvetica, sans-serif;
+}
+header {
+	overflow: hidden;
+}
+.container {
+	max-width: 960px;
+	min-width: 980px;
+	margin: 0 auto;
+}
+.logo {
+	float: left;
+	margin-top: 127px;
+	margin-bottom: 76px;
+	width: 185px;
+	height: 41px;
+	background: url(../img/APPIXTHEME.png) no-repeat;
+}
+.header__h1 {
+	float: left;
+	margin-top: 142px;
+	margin-left: 48px;
+	color: #939393;
+	font-family: "Myriad Pro";
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.header__social {
+float: right;
+margin-top: 91px;
+margin-right: 32px;
+}
+.header__social a {
+	text-decoration: none;
+	color: #878787;
+}
+.content__main {
+	height: 1000px;
+	background: #FFF;
+}
+.navigation {
+	width: 100%;
+	height: 85px;
+	background-color: rgba(235, 232, 225, 0.58);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.12);
+}
+.navigation ul {
+	list-style: none;
+	margin-left: 15px;
+	overflow: hidden;
+}
+.navigation li {
+	margin-top: 26px;
+	display: table-cell;
+	float: left;
+	margin-left: 15px;
+	vertical-align: middle;
+}
+.navigation li a {
+	display: block;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	// line-height: 85px;
+	color: #413F40;
+	padding: 8px 23px;
+}
+.navigation li a:hover {
+	text-decoration: underline;
+}
+
+.navigation li a.active{
+	background-color: #f45300;
+	color: #FFF;
+	border-radius: 5px;
+	box-shadow: 0 1px 0 white, inset 0 0 4px #802e04;
+	
+}
+.content__white {
+	padding: 0 30px;
+}
+.slogan {
+	overflow: hidden;
+}
+.slogan__item {
+	overflow: hidden;
+	float: left;
+	width: 33%;
+}
+
+.slogan__item div {
+	padding-right: 30px;
+	padding-top: 15px;
+}
+.slogan__item p {
+	color: #969696;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.slogan__item h2 {
+	font-size: 13px;
+	line-height: 20px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.slogan__item  i {
+	float: left;
+	color: #2e2c2d;
+	// transform: rotate(-90deg);
+	margin-right: 15px;
+	
+}
