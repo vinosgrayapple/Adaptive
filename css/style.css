@@ -99,6 +99,7 @@ margin-right: 32px;
 }
 .slogan {
 	overflow: hidden;
+	margin-bottom: 30px;
 }
 .slogan__item {
 	overflow: hidden;
@@ -128,4 +129,111 @@ margin-right: 32px;
 	// transform: rotate(-90deg);
 	margin-right: 15px;
 	
+}
+.features {
+	margin-bottom: 30px;
+}
+.features img {
+	width: 100%;
+} 
+.service {
+	overflow: hidden;
+	margin-bottom: 30px;
+
+}
+.service__item {
+	float: left;
+	width: 25%;
+}
+.service__item__button {
+	width: 160px;
+	height: 30px;
+	background-color: white;
+	background-image: linear-gradient(to top, #3f3a3e 0%, #898788 100%);
+	border: none;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	text-shadow: 0.7px -0.7px 5px rgba(0, 0, 0, 0.53);
+}
+.service__item__button a {
+	text-decoration: none;
+	color: white;
+	font-family: "Trebuchet MS";
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 20px;
+	display: block;
+	
+}
+.service__item h2 {
+	color: #2e2c2d;
+	font-family: "Trebuchet MS";
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 20px;
+}
+.service__item p {
+	color: #969696;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 20px;
+	margin: 22px 0;
+}
+.service__item div {
+	padding-right: 20px;
+}
+.service__item__button:hover {
+	background-image: linear-gradient(to top, #de4c01 0%, #f59461 100%);
+
+}
+
+.adv {
+	overflow: hidden;
+	background: url(../img/adv-bg.png);
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	height: 125px;
+	
+}
+.adv__left {
+	float: left;
+	width: 60%;
+	
+}
+.adv h2 {
+	display: block;
+	color: #706d6a;
+	font-family: "Trebuchet MS";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 35px;
+	padding: 25px 20px;
+}
+.adv__right {
+	float: right;
+	width: 40%;
+	
+}
+.adv__button {
+	margin-top: 35px;
+	margin-left: 40px;
+	width: 261px;
+	height: 55px;
+	background-color: white;
+	background-image: linear-gradient(to top, #f45300 0%, #f98f58 100%);
+	border: 1px solid #d55a1a;
+	border-radius: 27px;
+	box-shadow: 0 2px 2px rgba(135, 124, 105, 0.75), inset 0 1px 2px rgba(249, 199, 174, 0.75);
+}
+.adv__button a {
+	text-shadow: 0 1px 0 rgba(159, 85, 47, 0.75);
+	color: white;
+	font-family: "Trebuchet MS";
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 35px;
+	text-decoration: none;
+	display: block;
 }
